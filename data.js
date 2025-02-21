@@ -1,0 +1,62 @@
+// data.js
+const properties = [
+    {
+        id: 1,
+        title: "Luxury Villa",
+        description: "A stunning villa located in Beverly Hills with breathtaking views.",
+        type: "Villa",
+        location: "Beverly Hills, CA",
+        price: "$1,200,000",
+        bedrooms: 4,
+        bathrooms: 3,
+        squareFeet: "2,500 sq ft",
+        image: "./images/property-1.jpg",
+        agent: {
+            name: "John Doe",
+            title: "Real Estate Agent",
+            phone: "+123-456-7890",
+            email: "john.doe@example.com",
+        },
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.734546227548!2d-118.38817938437957!3d34.07362138058389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b9b3e3b3e3b3%3A0x9a5b1c1c1c1c1c1c!2sBeverly%20Hills%2C%20CA!5e0!3m2!1sen!2sus!4v1698745600000",
+    },
+    {
+        id: 2,
+        title: "Modern Apartment",
+        description: "A modern apartment located in the heart of New York City.",
+        type: "Apartment",
+        location: "New York, NY",
+        price: "$800,000",
+        bedrooms: 2,
+        bathrooms: 2,
+        squareFeet: "1,200 sq ft",
+        image: "./images/property-2.jpg",
+        agent: {
+            name: "Jane Smith",
+            title: "Real Estate Consultant",
+            phone: "+123-456-7891",
+            email: "jane.smith@example.com",
+        },
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.959555427878!2d-73.99445588459554!3d40.74844057932781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3111111%3A0x8fa41c1c1c1c1c1c!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1698745600000",
+    },
+    {
+        id: 3,
+        title: "Beach House",
+        description: "A cozy beach house located in Malibu with ocean views.",
+        type: "House",
+        location: "Malibu, CA",
+        price: "$1,500,000",
+        bedrooms: 3,
+        bathrooms: 2,
+        squareFeet: "1,800 sq ft",
+        image: "./images/property-9.jpg",
+        agent: {
+            name: "Alice Johnson",
+            title: "Real Estate Broker",
+            phone: "+123-456-7892",
+            email: "alice.johnson@example.com",
+        },
+        map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.734546227548!2d-118.38817938437957!3d34.07362138058389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b9b3e3b3e3b3%3A0x9a5b1c1c1c1c1c1c!2sMalibu%2C%20CA!5e0!3m2!1sen!2sus!4v1698745600000",
+    },
+];
+
+export default properties;
