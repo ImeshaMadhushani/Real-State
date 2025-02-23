@@ -79,6 +79,56 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Responsive design */
+    @media screen and (max-width: 768px) {
+       .hero-content {
+            text-align: center;
+        }
+
+       .hero-content h1 {
+            font-size: 1.8rem;
+        }
+
+       .hero-content p {
+            font-size: 1.2rem;
+        }
+
+       .hero-content .btn {
+            font-size: 0.8rem;
+        }
+        #footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    }
+    @media screen and (max-width: 576px) {
+       .hero-content {
+            text-align: center;
+        }
+        .hero-content h1 {
+            font-size: 1.6rem;
+        }
+        .hero-content p {
+            font-size: 1rem;
+        }
+        .hero-content .btn {
+            font-size: 0.7rem;
+        }
+        #footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    }
 
      </style>
 
@@ -98,7 +148,7 @@
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ms-auto ">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.html#hero">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="properties.html">Properties</a>
@@ -206,9 +256,7 @@
             document.getElementById('property-details').innerHTML = '<p class="text-center">Property not found.</p>';
         }
     </script>
-
-
-    <!-- Footer -->
+<!-- Footer -->
  <footer class="bg-dark text-light py-5">
         <div class="container">
             <div class="row">
@@ -241,6 +289,7 @@
             <p>&copy; 2023 Estate Hub. All rights reserved.</p>
         </div>
  </footer>
+
 
  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
